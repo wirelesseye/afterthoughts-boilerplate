@@ -1,0 +1,24 @@
+{
+    "name": "afterthoughts-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "dev": "aft dev",
+        "build": "aft build",
+        "preview": "aft preview",
+        "generate": "aft generate"
+    },
+    "author": "wirelesseye",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react": "^18.0.26",
+        "afterthoughts-cli": "file:../afterthoughts-cli",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "afterthoughts": "file:../afterthoughts",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
